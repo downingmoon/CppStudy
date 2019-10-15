@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\CppStudy.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Survey.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

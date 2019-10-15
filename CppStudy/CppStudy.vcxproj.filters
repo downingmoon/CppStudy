@@ -18,5 +18,8 @@
     <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\CppStudy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Survey.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
