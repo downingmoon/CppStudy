@@ -6,16 +6,22 @@ void Survey::addQuestion(string question) {
 }
 
 void Survey::setAnswerSize(int size) {
-	this->answerArray->resize(size);
-	cout << "선택항목 크기 : " << answerArray->size();
+	this->answerArray = new string[size];
 }
 
-void Survey::addAnswer() {
+int Survey::getAnswerSize() {
+	return sizeof(this->answerArray);
+}
 
+void Survey::addAnswer(string answer) {
+	this->answerArray->append(answer);
 }
 
 void Survey::printQnA() {
 	cout << "질문 : " << this->question << endl;
+	for (int i = 1; i <= sizeof(this->answerArray); i++) {
+		cout << i << "번 항목 : " << endl;
+	}
 }
 
 void Survey::responseAnswer() {
