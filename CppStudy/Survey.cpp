@@ -1,54 +1,32 @@
-#include <string>
+#include "Survey.h"
 
-using namespace std;
-class Survey {
-public:
 
-	/*
-	 * 질문 추가
-	*/
-	void addQuestion(string question) {
-	}
+void Survey::addQuestion(string question) {
+	this->question = question;
+}
 
-	/*
-	 * 선택항목 개수 설정
-	*/
-	void setAnswerSize() {
+void Survey::setAnswerSize(int size) {
+	this->answerArray->resize(size);
+	cout << "선택항목 크기 : " << answerArray->size();
+}
 
-	}
+void Survey::addAnswer() {
 
-	/*
-	 * 선택항목 추가
-	*/
-	void addAnswer() {
+}
 
-	}
+void Survey::printQnA() {
+	cout << "질문 : " << this->question << endl;
+}
 
-	/*
-	 * 질문 / 선택항목 출력
-	*/
-	void printQnA() {
+void Survey::responseAnswer() {
 
-	}
+}
 
-	/*
-	 * 질문 응답
-	*/
-	void responseAnswer() {
+void Survey::printResult() {
 
-	}
+}
 
-	/*
-	 * 설문 응답 결과 출력
-	*/
-	void printResult() {
+void Survey::resetAnswerCount() {
 
-	}
+}
 
-	/*
-	 * 설문 응답 수 초기화
-	*/
-	void resetAnswerCount() {
-
-	}
-};
