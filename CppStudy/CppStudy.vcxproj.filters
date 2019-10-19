@@ -15,15 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\CppStudy.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Question.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Survey.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\SurveyMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Answer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SurveyManager.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Survey.h">
+    <ClInclude Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Question.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Answer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SurveyManager.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

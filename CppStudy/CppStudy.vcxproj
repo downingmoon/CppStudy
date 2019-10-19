@@ -151,11 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\CppStudy.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Survey.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Answer.cpp" />
+    <ClCompile Include="SurveyManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Question.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\SurveyMain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Survey.h" />
+    <ClInclude Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Answer.h" />
+    <ClInclude Include="SurveyManager.h" />
+    <ClInclude Include="..\..\..\..\..\..\Joy%27s\스터디타운\C++공부\CppStudy\CppStudy\CppStudy\Question.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
